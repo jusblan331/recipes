@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jusblan.download.slack</string>
+	<string>com.github.jusblan331.download.slack</string>
 	<key>Process</key>
 	<array>
 		<dict>
