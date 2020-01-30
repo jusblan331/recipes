@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest FireFox disk image and builds a package.</string>
+    <string>Downloads latest Fire Fox disk image and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.jusblan331.pkg.firefox</string>
     <key>Input</key>
