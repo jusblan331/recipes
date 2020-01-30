@@ -16,7 +16,7 @@
         <string>10.15.0</string>
         <key>NAME</key>
         <string>AdobeReader</string>
-        <key>DOWNLOAD_UR</key>
+        <key>DOWNLOAD_URL</key>
         <string>https://get.adobe.com/reader/download/?installer=Reader_DC_2019.021.20058_for_Mac_Intel&stype=7462&standalone=1</string>
     </dict>
     <key>MinimumVersion</key>
