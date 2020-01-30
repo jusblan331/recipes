@@ -16,41 +16,29 @@
         <string>10.15.0</string>
         <key>NAME</key>
         <string>AdobeReader</string>
+        <key>DOWNLOAD_UR</key>
+        <string>https://get.adobe.com/reader/download/?installer=Reader_DC_2019.021.20058_for_Mac_Intel&stype=7462&standalone=1</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.4</string>
     <key>Process</key>
     <array>
-        <dict>
-            <key>Processor</key>
-            <string>DeprecationWarning</string>
-            <key>Arguments</key>
-            <dict>
-                <key>warning_message</key>
-                <string>This recipe will soon be removed. Please remove it from your list of recipes.</string>
-            </dict>
-        </dict>
-        <dict>
+      <dict>
+          <key>Processor</key>
+          <string>URLDownloader</string>
           <key>Arguments</key>
           <dict>
-              <key>language</key>
-              <string>%LANGUAGE%</string>
-              <key>major_version</key>
-              <string>%MAJOR_VERSION%</string>
-              <key>os_version</key>
-              <string>%OS_VERSION%</string>
+              <key>url</key>
+              <string>%DOWNLOAD_URL%</string>
+              <key>filename</key>
+              <string>%NAME%.dmg</string>
           </dict>
-          <key>Processor</key>
-          <string>AdobeReaderURLProvider</string>
-        </dict>
         <dict>
           <key>Arguments</key>
           <dict>
               <key>filename</key>
               <string>%NAME%.dmg</string>
           </dict>
-          <key>Processor</key>
-          <string>URLDownloader</string>
         </dict>
         <dict>
             <key>Processor</key>
