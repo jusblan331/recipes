@@ -12,7 +12,7 @@
         <string>FireFox</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.jusblan331.download.firefox</string>
+    <string>https://github.com/jusblan331/recipes/tree/master/FireFox</string>
     <key>Process</key>
     <array>
         <dict>
