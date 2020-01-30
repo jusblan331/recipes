@@ -42,8 +42,6 @@
               <string>%pathname%/Fire Fox.app</string>
               <key>strict_verification</key>
               <false/>
-              <key>requirement</key>
-              <string>(identifier "org.mozilla.firefox" or identifier "org.mozilla.firefoxdeveloperedition")</string>
           </dict>
       </dict>
   </array>
