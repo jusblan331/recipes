@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Adobe Reader disk image and builds a package.</string>
+    <string>Downloads latest LICEcap disk image and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.jusblan331.pkg.adobereader</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>AdobeReader</string>
+        <string>LICEcap</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://get.adobe.com/reader/download/?installer=Reader_DC_2019.021.20058_for_Mac_Intel&stype=7462&standalone=1</string>
+        <string>https://www.cockos.com/licecap/licecap129.dmg</string>
     </dict>
     <key>Process</key>
     <array>
