@@ -10,11 +10,22 @@
     <dict>
         <key>NAME</key>
         <string>FireFox</string>
+        <key>DOWNLOAD_URL</key>
+        <string>https://download.mozilla.org/?product=firefox-latest&os=osx&lang=en-US</string>
     </dict>
-    <key>ParentRecipe</key>
-    <string>https://github.com/jusblan331/recipes/tree/master/FireFox</string>
     <key>Process</key>
     <array>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%DOWNLOAD_URL%</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
+        </dict>
         <dict>
             <key>Processor</key>
             <string>AppDmgVersioner</string>
